@@ -32,7 +32,7 @@ and dont forget to make VENV in python or Virtual Enviroment
 #### Get Coins
 
 ```http
-  GET /listing
+  GET /coins
 ```
 
 | Parameter | Type     | Description                |
