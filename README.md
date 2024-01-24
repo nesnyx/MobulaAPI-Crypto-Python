@@ -1,7 +1,7 @@
 
 # Mobula API Cryptocurrency App use FastAPI
 
-This is simple project build use FastAPI and data from Mobula API.
+This is simple project build use FastAPI and data from Mobula API.<br>
 ![Logo](https://mobula.io/metaimage/Generic/others.png)
 ## Features
 
@@ -29,7 +29,7 @@ and dont forget to make VENV in python or Virtual Enviroment
     
 ## API Reference
 
-#### Get all Listing
+#### Get Coins
 
 ```http
   GET /listing
@@ -37,17 +37,18 @@ and dont forget to make VENV in python or Virtual Enviroment
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `X-CMC_PRO_API_KEY` | `string` | **Required**. Your API key |
+| `Authorization` | `string` | **Required**. Your API key |
+| `Content-Type` | `string` | **Required**. application/json |
 
-#### Get Listing by Id
+#### Get Coins
 
 ```http
-  GET /listing/${id}
+  GET /coins/search
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| `coin`      | `string` | **Required**. From Input FORM |
 
 
 #### About
