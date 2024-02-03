@@ -13,7 +13,7 @@ This is simple project build use FastAPI and data from Mobula API.<br>
 
 
 ## Documentation
-If you want to check out CMC API Documentation can go to through this link.
+If you want to check out Mobula API Documentation can go to through this link.
 [CMC API Documentation](https://docs.mobula.io/introduction)
 
 
